@@ -1,0 +1,39 @@
+body {
+    font-family: 'Fira+Sans', Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    line-height: 1.6;
+}
+header 
+{
+    background-color: #000000;
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 15px 6%;
+    border-bottom: 1px solid #292929;
+    position: sticky;
+    top: 0;
+}
+nav ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+nav ul li a {
+    color: #ffffff;
+    font-size: 14.4px;
+    transition: 0.3s;
+}
+nav ul li a:hover 
+{
+    color: #2500e1;
+}
+p{
+  text-align: center;
+   color: red;  
+}
